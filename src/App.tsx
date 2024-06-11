@@ -6,6 +6,9 @@ import '@aws-amplify/ui-react/styles.css'
 
 const client = generateClient<Schema>();
 
+import { Authenticator } from '@aws-amplify/ui-react'
+import '@aws-amplify/ui-react/styles.css'
+
 function App() {
   const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
 
